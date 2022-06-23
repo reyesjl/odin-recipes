@@ -1,5 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: lightgray;
+    overflow: hidden; /* Hide scrollbars */
 }
 
 #title {
@@ -36,6 +42,7 @@ body {
     display: flex;
     color: red;
     position: fixed;
+    background: black;
     align-items: center;
     justify-content: center;
     bottom: 0px;
@@ -44,5 +51,16 @@ body {
 
 .footer p {
     margin: auto;
-    padding: 20px 0;
+    padding: 8px 0;
 }
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .item-container {
+    flex-direction: column;
+  }
+
+  .item-name {
+    width: 100%;
+    margin-bottom: 50px;
+  }
