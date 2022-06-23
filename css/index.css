@@ -53,22 +53,6 @@ body {
     color: red;
 }
 
-.footer {
-    display: flex;
-    padding: 8px 0;
-    color: red;
-    position: fixed;
-    bottom: 0;
-    background: black;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-
-.footer p {
-    margin: auto;
-}
-
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
   .item-container {

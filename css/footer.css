@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    padding: 8px 0;
+    color: red;
+    position: fixed;
+    bottom: 0;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer p {
+    margin: auto;
+}
