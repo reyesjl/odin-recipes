@@ -39,18 +39,18 @@ body {
 
 .footer {
     display: flex;
+    padding: 8px 0;
     color: red;
     position: fixed;
+    bottom: 0;
     background: black;
     align-items: center;
     justify-content: center;
-    bottom: 0px;
     width: 100%;
 }
 
 .footer p {
     margin: auto;
-    padding: 8px 0;
 }
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
