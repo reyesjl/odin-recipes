@@ -31,6 +31,22 @@ body {
     width: 25%;
     border: 1px solid black;
     text-align: center;
+    transition-duration: .4s;
+}
+
+.item-name:hover {
+    transition-duration: .4s;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    cursor: pointer;
+}
+
+.item-name a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.item-name a:visited {
+    color: black;
 }
 
 .item-subtitle {
