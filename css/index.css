@@ -5,7 +5,6 @@ html, body {
 
 body {
     background-color: lightgray;
-    overflow: hidden; /* Hide scrollbars */
 }
 
 #title {
