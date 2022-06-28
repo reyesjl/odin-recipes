@@ -41,7 +41,7 @@ a:visited {
 .food-container {
     width: 60vw;
     border: 1px solid black;
-    margin: 10vh auto;
+    margin: 10vh auto 0 auto;
 }
 
 .description {
@@ -51,9 +51,24 @@ a:visited {
     font-size: 1em;
 }
 
+.gif-container {
+    text-align: center;
+}
+
+.gif-container img {
+    display: inline-block;
+    border: 1px solid black;
+    height: 30vh;
+    width: 60vw;
+}
+
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
     .food-container {
+        width: 90vw;
+    }
+
+    .gif-container img {
         width: 90vw;
     }
 
