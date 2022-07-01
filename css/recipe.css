@@ -58,7 +58,6 @@ a:visited {
 .gif-container img {
     display: inline-block;
     border: 1px solid black;
-    height: 30vh;
     width: 60vw;
 }
 
